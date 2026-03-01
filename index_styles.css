@@ -341,7 +341,7 @@ html {
     align-items: center;
     margin-bottom: 0;
     scroll-snap-align: start;
-    scroll-margin-top: 200px;
+    scroll-margin-top: 100px;
 }
 
 .story-text {
@@ -356,13 +356,16 @@ html {
 
 
 
+
 }
 
 .story-text:has(+.expand-btn:not(:checked))::before {
     content: '';
     position: absolute;
-    height: calc(var(--line-hight) *3);
+    left: 0;
+    right: 0;
     width: 100%;
+    height: calc(var(--line-hight) * 3);
     bottom: 0;
     pointer-events: none;
     background: linear-gradient(to bottom, transparent, var(--primary-color));

@@ -43,7 +43,7 @@ const observer4 = new IntersectionObserver((entries) => {
 
 
     }
-}, { threshold: 0.15 })
+}, { threshold: 0.14 })
 
 
 setTimeout(() => { title.style.position = 'fixed' }, 3000)
@@ -52,3 +52,14 @@ observer.observe(section2)
 
 observer3.observe(section4)
 observer4.observe(section3)
+
+// Remove sup.scrolled when #section4 link is pressed
+const section4Link = document.querySelector('a[href="#section4"]');
+if (section4Link) {
+    section4Link.addEventListener('click', function () {
+        sup.classList.remove('scrolled');
+        sub.classList.remove('scrolled');
+        title.classList.remove('scrolled');
+        underline.classList.remove('scrolled');
+    });
+}
