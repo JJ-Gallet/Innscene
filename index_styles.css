@@ -501,6 +501,8 @@ html {
     .nav-cast-mobile {
         display: block;
     }
+
+
 }
 
 @media (max-width: 768px) {
@@ -573,8 +575,8 @@ html {
 
     .nav-container {
 
-        margin-left: 0.5em;
-        margin-right: 0.5em;
+        margin-left: 3em;
+        margin-right: 3em;
         padding: 0.5em 0;
     }
 
