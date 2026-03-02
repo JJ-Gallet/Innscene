@@ -11,6 +11,7 @@
 
 }
 
+
 a {
     text-decoration: none;
     color: inherit;
@@ -70,6 +71,7 @@ nav {
 
 html {
     scroll-snap-type: y proximity;
+    background-color: var(--primary-color);
 }
 
 
@@ -511,7 +513,8 @@ html {
     }
 
     body {
-        background: none;
+        background-image: none;
+        background-color: var(--primary-color);
 
     }
 
