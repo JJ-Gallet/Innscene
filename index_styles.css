@@ -511,15 +511,14 @@ html {
     }
 
     body {
-        background-image: none;
-        background-color: var(--primary-color);
-    }
-
-    header {
-        height: 30%;
         background-image: url('images/background-gradient.png');
         background-size: cover;
         background-position: center center;
+
+    }
+
+    header {
+        height: 50%;
     }
 
     .title {
@@ -685,4 +684,40 @@ html {
 
     }
 
+}
+
+@media (max-width: 391px) {
+    .viewing {
+
+        width: 140px;
+        height: 280px;
+
+    }
+
+    .day {
+        font-size: 10px;
+    }
+
+    .date {
+        font-size: 1em;
+        width: 100px;
+        margin-top: 1em;
+
+
+    }
+
+
+
+    .info p {
+        font-size: 11px;
+
+
+    }
+
+    .get-tickets {
+        font-size: 0.7em;
+        margin-top: 30px;
+        margin-left: 30px;
+
+    }
 }
