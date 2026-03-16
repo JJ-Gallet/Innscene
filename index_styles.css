@@ -416,7 +416,7 @@ html {
     margin-top: -1.5em;
     display: flex;
     flex-direction: column;
-    justify-content: top;
+    justify-content: flex-start;
     align-items: center;
     padding-top: 5em;
     scroll-snap-align: start;
