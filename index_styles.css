@@ -685,6 +685,10 @@ html {
     .section4-p {
         width: 90%;
         font-size: 0.9em;
+        animation-name: none !important;
+        animation-duration: 0s !important;
+        animation-delay: 0s !important;
+        animation-fill-mode: none !important;
 
     }
 
