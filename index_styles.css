@@ -688,6 +688,13 @@ html {
 
     }
 
+    .section4-h2 {
+        animation-name: none !important;
+        animation-duration: 0s !important;
+        animation-delay: 0s !important;
+        animation-fill-mode: none !important;
+    }
+
 }
 
 @media (max-width: 391px) {
