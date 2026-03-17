@@ -46,7 +46,7 @@ p {
 
 
 body {
-    background-image: url('images/background-gradient.png');
+    background-image: url('images/background-gradient.webp');
     margin: 0;
 
     background-attachment: fixed;
@@ -519,7 +519,7 @@ html {
     }
 
     header {
-        background-image: url('images/background-gradient.png');
+        background-image: url('images/background-gradient_low_quality.webp');
         background-size: cover;
         background-position: top center;
         height: 50%;
