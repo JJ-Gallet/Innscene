@@ -46,7 +46,7 @@ p {
 
 
 body {
-    background-image: url('images/background-gradient.webp');
+    background-image: url('../images/background-gradient.webp');
     margin: 0;
 
     background-attachment: fixed;
@@ -399,7 +399,7 @@ html {
     appearance: none;
     width: 70px;
     height: 70px;
-    background-image: url('images/Button-expand.png');
+    background-image: url('../images/Button-expand.png');
     background-size: contain;
 
 
@@ -428,7 +428,7 @@ html {
 
 
 .section4 {
-    background-image: url('images/Group_shot.webp');
+    background-image: url('../images/Group_shot.webp');
     background-size: cover;
     background-position: center top;
 
